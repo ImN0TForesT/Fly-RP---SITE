@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="imagens" href="../Imagens/discordlogo.png">
+        <title>Fly RP</title>
+        <style>
+            .container {
+              position: relative;
+              width: 15%;
+            }
+            
+            .image {
+              opacity: 1;
+              display: block;
+              width: 100%;
+              height: auto;
+              transition: .5s ease;
+              backface-visibility: hidden;
+            }
+            
+            .middle {
+              transition: .5s ease;
+              opacity: 0;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              -ms-transform: translate(-50%, -50%)
+            }
+            
+            .container:hover .image {
+              opacity: 0.3;
+            }
+            
+            .container:hover .middle {
+              opacity: 1;
+            }
+            
+            .text {
+              background-color: lightblue;
+              color: white;
+              font-size: 16px;
+              padding: 16px 32px;
+            }
+            </style>
+
+    </head>
+    <body>
+        <hr>
+        <div class="RP"> BEM VINDO AO FLY RP </div>
+        <hr>
+        <div class="container">
+            <img src="../Imagens/discordlogo.png" alt="Avatar" class="image" style="width:100%">
+            <div class="middle">
+              <div class="text"> DISCORD 
+              </div>
+            </div>
+          </div>
+          <div class="discord"> - https://discord.gg/AcvtTDu </div>
+          <div class="discord me"> -  https://discord.me/flyrp </div>
+    </body>
+</html>
